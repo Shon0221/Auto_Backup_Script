@@ -5,8 +5,11 @@
 Linux設定說名在Terminal環境上
 輸入**crontab -e** 進入使用者設定工作排程模式
 輸入 預設定參數後保存離開
+
     分 時 日期 月份 週 指令
-ex: 0 8 * * 5 python /home/user/backup/backup.py
+    
+ex: 
+    0 8 * * 5 python /home/user/backup/backup.py
 
 
 MySQL參考資料
